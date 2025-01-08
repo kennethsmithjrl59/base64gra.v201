@@ -1,0 +1,18 @@
+here are the main file system options for external SSDs on macOS:
+APFS (Apple File System)
+Best for macOS
+Very efficient
+Optimized for SSDs
+Supports encryption
+LIMITATION: Limited compatibility with Windows/Linux
+HFS+ (Mac OS Extended)
+Traditional Apple format
+Works well with older Mac systems
+LIMITATION: Same Windows/Linux compatibility issues as APFS
+FAT32
+Universal compatibility
+LIMITATIONS:
+4GB max file size
+No files over 4GB
+Not efficient for large drives
+exFAT
