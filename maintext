@@ -1,0 +1,8 @@
+const emails = Array.from(document.querySelectorAll('.zA')); // Обратите внимание на класс .zA, который обозначает письма
+
+if (emails.length > 0) {
+    const lastEmail = emails[0]; // Первое письмо будет последним по времени
+    lastEmail.click(); // Открываем последнее пришедшее письмо
+} else {
+    console.log("Письма не найдены");
+}
